@@ -38,7 +38,8 @@ left_join(Master, by = "playerID") %>%
 ```
 select(playerID, nameFirst, nameLast)
 ```
-###There were 1,239 nominees for the Hall of Fame. So, how selective is the Hall of Fame?
+### There were 1,239 nominees for the Hall of Fame. 
+### *So, how selective is the Hall of Fame?*
 
 #### Find distinct players in HallOfFame
 ```
@@ -66,8 +67,8 @@ select(playerID, nameFirst, nameLast)
 ```
 
 ### 312 players have been inducted into the Hall of Fame out of 1,239 nominees
-### What separates the nominees who were inducted from the nominees who were not?
-### Did nominees who were inducted earn more awards than nominees who were not inducted?
+### *What separates the nominees who were inducted from the nominees who were not?*
+### *Did nominees who were inducted earn more awards than nominees who were not inducted?*
 
 #### Tally the number of awards in AwardsPlayers by playerID
 ```
@@ -104,7 +105,7 @@ nAwards %>%
 
 ### On average, inductees had 11.95 - 4.23 = 7.72 more awards than non-inductees. 
 ### Another possiblitiliy is that salary differentiates inductees from non-inductees. 
-### Is the maximum salary earned by inductees greater than the maximum salary earned by nominees who were not inducted?
+### *Is the maximum salary earned by inductees greater than the maximum salary earned by nominees who were not inducted?*
 
 #### Find the players who are in nominated, but not inducted
 ```
@@ -139,8 +140,8 @@ Salaries %>%
 
 ### The average salary of players who were inducted was $5,079,720 - $4,677,737 = $401,983 more per year.
 ### So, the inducted players won more awards and had an higher average salary than nominees who were not inducted.
-### Is there anything else to consider with this dataset (besides the NA values we removed)-
-### How about checking to account for induction five years after retirement, which is a rule?
+### *Is there anything else to consider with this dataset (besides the NA values we removed)-*
+### *How about checking to account for induction five years after retirement, which is a rule?*
 ```
   Appearances %>% 
 ```
@@ -163,4 +164,4 @@ Salaries %>%
 ```
 
 ### Quite a few players were nominated before they retired, but less frequently in recent years.
-### Good point to start working on a model using the factors identified from this exploratory analysis.
+### *This is a good point to start working on a model using the factors identified from this exploratory analysis.*
