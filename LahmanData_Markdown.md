@@ -164,7 +164,7 @@ Salaries %>%
 
 #### Filter for unusual observations
 ```
-  filter(last_year >= yearID)```
+  filter(last_year >= yearID)
 ```
 
 ### Quite a few players were nominated before they retired, but less frequently in recent years.
