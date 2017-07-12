@@ -9,7 +9,9 @@ output:
 Baseball: Hall of Fame
 (Lahman Dataset)
 
+```
 The Lahman Baseball Database contains individual and team statistics from 1871 to present, and has been available as a free download since 1995. <http://seanlahman.com/baseball-archive/statistics/>
+```
 ================
 
 #### Load the libraries
