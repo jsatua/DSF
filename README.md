@@ -1,6 +1,6 @@
-## Welcome to my Data Science Sandbox
+## Welcome to my Data Science (R) Sandbox
 
-Analyses are organized by the primary tools used to create them.
+These analyses were conducted using R (R Studio).
 
 ### Availability
 
