@@ -168,4 +168,4 @@ Salaries %>%
 ```
 
 ### Quite a few players were nominated before they retired, but less frequently in recent years.
-### *This is a good point to start working on a model using the factors identified from this exploratory analysis.*
+### *This is a good point to start working on a model using the factors identified from this exploratory analysis.* 
