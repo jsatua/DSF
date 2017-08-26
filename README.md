@@ -1,2 +1,7 @@
-# Data-Science
-Data Science Sandbox: see branches for more details and support files
+## Welcome to my Data Science Sandbox
+
+Analyses are organized by the primary tools used to create them.
+
+### Availability
+
+I am currently available for interesting Product Management and Data Science / Visualization opportunities!
