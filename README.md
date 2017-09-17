@@ -1,6 +1,6 @@
 ## Welcome to my Data Science Sandbox
 
-Analyses are organized into branches based on the primary tool used.
+Analyses are (mainly) organized into branches based on the primary tool used.
 
 ### Availability
 
